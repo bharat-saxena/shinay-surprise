@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-glow"></div>
+
+  <main class="wrap">
+    <section class="card">
+
+      <div class="top">
+        <p class="tag">A Small Surprise ✨</p>
+        <h1>Hey Love ❤️</h1>
+        <p class="sub">
+          I made this just for you.  
+          Not perfect, but real. Like love.
+        </p>
+      </div>
+
+      <!-- Video Section -->
+      <div class="video-box">
+        <video controls autoplay muted playsinline>
+          <source src="./assets/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <!-- Message Section -->
+      <div class="message">
+        <h2>Just one thing...</h2>
+        <p>
+          If you ever feel low, remember this:  
+          You’re the best part of my life.  
+          And I’m grateful for you… always.
+        </p>
+        <br>
+        <button class="btn" onclick="showNote()">Click for a secret 👀</button>
+      </div>
+      
+
+      <!-- Footer -->
+      <div class="footer">
+        <p>With 💖 by <span>VINAY SAXENA</span></p>
+        
+      </div>
+
+    </section>
+      </div>
+  </main>
+  
+
+  <!-- Popup Note -->
+  <div class="popup" id="popup">
+    <div class="popup-card">
+      <h3>Secret Note 💌</h3>
+      <p>
+        I don’t need a special day to love you.  
+        I just need you.
+      </p>
+      <button class="btn small" onclick="closeNote()">Okay 🫶</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
